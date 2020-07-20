@@ -39,7 +39,7 @@ function Circulo ()
     radio = txtIdRadio.value;
     radio = parseInt(radio);
     
-    resultado = radio*3.14;
+    resultado = radio*6.28;
     cantidadLineas = resultado*3;
 
     alert("Para alamabrar el perimetro se necesitan " + cantidadLineas + " m.")	
@@ -58,7 +58,7 @@ function Materiales ()
  ancho = txtIdAncho.value;
  ancho = parseInt(ancho);
 
- operacion = largo*ancho;
+ operacion = largo*anchose;
 
  cemento = operacion * 2;
  cal = operacion * 3 ;
