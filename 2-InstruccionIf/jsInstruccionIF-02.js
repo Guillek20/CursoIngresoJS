@@ -1,3 +1,5 @@
+/*Ejercicio 2-  Guillermo Lincoman */
+
 function mostrar()
 {
 	//tomo la edad  
