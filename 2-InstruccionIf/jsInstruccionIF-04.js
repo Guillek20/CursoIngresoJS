@@ -4,24 +4,12 @@
 function mostrar()
 {
 	var edad;
-	edad=txtIdEdad.value;
+
+	edad = txtIdEdad.value;
 	edad=parseInt(edad);
-
-	//forma 1
-	if(edad>12)
+	if(edad>13 && edad<18)
 	{
-		if(edad<18)
-		{
-		alert("Su edad es " + edad +", usted es adolecente.")
-		}
+		alert("Esta persona es adolecente")
 	}
-
-	/* Forma 2
-	if(edad>12&&edad<18)
-	{
-		alert("Su edad es " + edad +", usted es adolecente.")
-
-	}
-	*/
 
 }//FIN DE LA FUNCIÓN

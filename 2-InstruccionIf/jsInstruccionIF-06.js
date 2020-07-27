@@ -3,60 +3,23 @@
 
 function mostrar()
 {
-	//tomo la edad  
-	var edad;
-	edad=txtIdEdad.value;
-	edad=parseInt(edad);
+    var edad;
 
-	//gastador de procesador
+    edad=txtIdEdad.value;
+    edad=parseInt(edad);
 
-	//Usted es mayor de edad
-	/*if(edad>17)
-	{
-		alert("Su edad es " + edad +", usted es mayor de edad.");
-	}
-	//Usted es adolecente	
-	if(edad>12&&edad<18)
-	{
-		alert("Su edad es " + edad +", usted es adolecente.");
-	}
-	//Usted es un niño
-	if(edad<13)
-	{
-		alert("Su edad es " + edad +", usted es un niño.");
-	}
-*/
-
-	//forma 2 simple
-	if(edad>17)
-	{
-		alert("Su edad es " + edad +", usted es mayor de edad.");
-	}
-	else
-	{
-		if(edad>12)
-		{
-			alert("Su edad es " + edad +", usted es adolecente.");
-		}else
-		{
-			alert("Su edad es " + edad +", usted es un niño.");
-		}
-	}
-
-	//eror forzado
-	if(edad<12)
-	{
-		alert("niño");
-	}else
-	{
-		if(edad<18)
-		{
-			alert("adolecente");
-		}
-	}
-	if(edad>18)
-	{
-		alert("mayor");
-	}
-
+    if(edad>17)
+    {
+        alert("Esta persona es mayor de 18 años");
+    }else
+    {
+        if(edad>13)
+        {
+            alert("Esta persona es adolecente");
+        }else
+        {
+            alert("Esta persona es un niño");
+        }
+    }
+    
 }//FIN DE LA FUNCIÓN
